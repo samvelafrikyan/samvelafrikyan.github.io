@@ -1,0 +1,453 @@
+                      * {
+                          margin: 0;
+                          padding: 0;
+                          box-sizing: border-box;
+                      }
+                      
+                      header {
+                          background-image: url(../img/header_bg.png);
+                          background-repeat: no-repeat;
+                          background-size: cover;
+                          padding-bottom: 100px;
+                      }
+                      
+                      .social_icons {
+                          width: 10%;
+                          display: flex;
+                          list-style-type: none;
+                          justify-content: space-around;
+                          margin-top: 35px;
+                      }
+                      
+                      .navbar-light .navbar-toggler-icon {
+                          background-color: rgba(255, 255, 255, 0.7);
+                          padding: 0 20px;
+                      }
+                      
+                      .navbar-light .navbar-toggler-icon:hover {
+                          background-color: rgba(255, 255, 255, 0.5);
+                      }
+                      
+                      .nav-link {
+                          color: white !important;
+                          font-weight: 700;
+                          transition: 0.5s;
+                          font-family: 'Gentium Book Basic', serif;
+                          font-size: 21px;
+                      }
+                      
+                      .nav-item {
+                          padding: 0 5px;
+                      }
+                      
+                      .nav-item::before {
+                          width: 0;
+                          content: "";
+                          height: 2px;
+                          background-color: white;
+                          display: inline-block;
+                          transition: 0.5s;
+                      }
+                      
+                      .nav-item:hover::before {
+                          width: 100%;
+                      }
+                      
+                      .nav-link:hover {
+                          color: rgba(255, 255, 255, 0.7) !important;
+                      }
+                      
+                      h1 {
+                          font-size: 85px;
+                          font-family: 'Yeseva One', cursive;
+                          color: white;
+                          margin-top: 130px;
+                      }
+                      
+                      .buttons {
+                          margin-top: 25px;
+                      }
+                      
+                      .btn {
+                          color: white;
+                          text-transform: uppercase;
+                          font-family: 'Lato', sans-serif;
+                          padding: 10px 35px;
+                          margin: 0 10px;
+                          border-radius: 0;
+                      }
+                      
+                      .btn-black {
+                          background-color: rgba(0, 0, 0, 0.8);
+                      }
+                      
+                      .btn-black:hover {
+                          color: white !important;
+                          background-color: rgba(0, 0, 0, 0.5);
+                      }
+                      
+                      .btn-white {
+                          background-color: rgba(255, 255, 255, 0.6);
+                      }
+                      
+                      .btn-white:hover {
+                          background-color: rgba(255, 255, 255, 0.4);
+                          color: white !important;
+                      }
+                      /* sec1----------------------------------------------------------------- */
+                      
+                      #sec1 {
+                          background-image: url(../img/section\ background\ \(1\).png);
+                          background-repeat: no-repeat;
+                          background-size: cover;
+                      }
+                      
+                      #sec1 h2 {
+                          color: rgb(204, 153, 0);
+                          font-size: 36px;
+                          font-family: 'Yeseva One', cursive;
+                      }
+                      
+                      #sec1 .p-top {
+                          padding-top: 95px;
+                      }
+                      
+                      #sec1 p {
+                          font-family: 'Lato', sans-serif;
+                          padding-top: 30px;
+                      }
+                      
+                      #sec1 .photo1 {
+                          padding-top: 7px;
+                      }
+                      
+                      #sec1 .photo2 {
+                          padding-top: 20px;
+                          margin-left: 60px;
+                      }
+                      /* sec2--------------------------------------------------------------- */
+                      
+                      #sec2 {
+                          background-image: url(../img/section\ background.png);
+                          background-repeat: no-repeat;
+                          background-size: cover;
+                          padding: 100px 0;
+                      }
+                      
+                      #sec2 .dark {
+                          background-color: rgba(0, 0, 0, 0.7);
+                          color: white;
+                          padding: 80px 50px
+                      }
+                      
+                      #sec2 h2 {
+                          font-family: 'Yeseva One', cursive;
+                      }
+                      
+                      #sec2 p {
+                          font-family: 'Lato', sans-serif;
+                          padding-top: 20px;
+                      }
+                      
+                      #sec2 .black_img {
+                          padding-top: 35px;
+                      }
+                      /* sec3--------------------------------------------------------- */
+                      
+                      #sec3 {
+                          background-image: url(../img/background.png);
+                          background-repeat: no-repeat;
+                          background-size: cover;
+                      }
+                      
+                      #sec3 .text-center {
+                          padding: 100px 84px 60px 84px;
+                      }
+                      
+                      #sec3 .text-center p {
+                          font-family: 'Lato', sans-serif;
+                          text-align: left;
+                          font-size: 15px;
+                          padding-top: 5px;
+                      }
+                      
+                      #sec3 h2 {
+                          color: rgb(204, 153, 0);
+                          font-family: 'Yeseva One', cursive;
+                      }
+                      
+                      #sec3 .relative {
+                          position: relative;
+                          border: 1px solid rgb(204, 153, 0);
+                          margin-top: 40px;
+                      }
+                      
+                      #sec3 .special {
+                          position: absolute;
+                          top: -29px;
+                          right: 0;
+                          background-color: rgb(204, 153, 0);
+                          color: white;
+                          font-size: 15px;
+                          padding: 3px 5px;
+                      }
+                      
+                      #sec3 .title,
+                      .title2 {
+                          padding-top: 40px;
+                      }
+                      
+                      #sec3 .brd {
+                          border-bottom: 1px solid rgb(204, 153, 0);
+                          font-family: 'Yeseva One', cursive;
+                          margin-top: 15px;
+                          padding-bottom: 5px;
+                          font-size: 18px;
+                      }
+                      
+                      #sec3 span {
+                          color: rgb(204, 153, 0);
+                      }
+                      
+                      #sec3 .left {
+                          float: left;
+                      }
+                      
+                      #sec3 .right {
+                          float: right;
+                      }
+                      
+                      .clearfix {
+                          clear: both;
+                          overflow: auto;
+                      }
+                      /* sec4--------------------------------------------------------------------- */
+                      
+                      #sec4 {
+                          background-image: url(../img/bg.png);
+                          background-repeat: no-repeat;
+                          background-size: cover;
+                          padding: 50px 0;
+                      }
+                      
+                      #sec4 .dark2 {
+                          padding: 60px 120px;
+                          width: 665px;
+                          background-color: rgba(0, 0, 0, 0.8);
+                          color: white;
+                          margin: 0 auto;
+                      }
+                      
+                      #sec4 .dark2 h2 {
+                          font-family: 'Yeseva One', cursive;
+                      }
+                      
+                      #sec4 .dark2 p {
+                          font-family: 'Gentium Book Basic', serif;
+                          padding-top: 20px;
+                          font-size: 21px;
+                          color: #dde0df;
+                      }
+                      
+                      #sec4 .dark2 span {
+                          font-family: 'Lato', sans-serif;
+                      }
+                      /* sec5------------------------------------------------------------------------- */
+                      
+                      #sec5 {
+                          background-image: url(../img/section\ background\ \(1\).png);
+                          background-repeat: no-repeat;
+                          background-size: cover;
+                      }
+                      
+                      #sec5 .container {
+                          padding-top: 80px;
+                          padding-bottom: 80px;
+                      }
+                      
+                      #sec5 .cook {
+                          width: 250px;
+                          margin: 8px;
+                      }
+                      
+                      #sec5 h2 {
+                          color: rgb(204, 153, 0);
+                          font-size: 36px;
+                          font-family: 'Yeseva One', cursive;
+                      }
+                      
+                      #sec5 p {
+                          font-family: 'Lato', sans-serif;
+                          padding-top: 30px;
+                      }
+                      
+                      #sec5 .p2 {
+                          margin-top: -30px;
+                      }
+                      
+                      #sec5 label {
+                          color: rgb(204, 153, 0);
+                          font-family: 'Open Sans', sans-serif;
+                      }
+                      
+                      #sec5 button {
+                          padding: 5px 50px;
+                          background-color: rgb(204, 153, 0);
+                          text-transform: none;
+                          margin-top: 15px;
+                      }
+                      /* footer---------------------------------------------------------------------------- */
+                      
+                      footer {
+                          background-color: black;
+                      }
+                      
+                      footer .container {
+                          padding-top: 50px;
+                          padding-bottom: 20px;
+                      }
+                      
+                      footer .container h5 {
+                          color: white;
+                          font-family: 'Yeseva One', cursive;
+                      }
+                      
+                      footer .container p {
+                          font-family: 'Open Sans', sans-serif;
+                          color: white;
+                          padding-top: 20px;
+                      }
+                      
+                      footer .container .pay,
+                      .social {
+                          padding-top: 40px;
+                      }
+                      /* media----------------------------------------------------------------------------- */
+                      
+                      @media screen and (max-width: 1200px) {
+                          #sec1 .photo2 {
+                              padding-bottom: 20px;
+                          }
+                          #sec2 .dark {
+                              padding: 50px 20px;
+                          }
+                          footer .container .div4 {
+                              width: 180px;
+                          }
+                          #sec5 .cook {
+                              width: 206px;
+                          }
+                      }
+                      
+                      @media screen and (max-width: 992px) {
+                          .navbar-nav {
+                              align-items: center;
+                          }
+                          .social_icons {
+                              justify-content: center;
+                              width: 100%;
+                          }
+                          h1 {
+                              margin-top: 10px;
+                          }
+                          .photo3 {
+                              margin-top: 150px;
+                          }
+                          #sec1 .photo2 {
+                              padding-bottom: 20px;
+                          }
+                          #sec3 .divider {
+                              width: 195px;
+                          }
+                          #sec3 .text-center {
+                              padding: 50px 50px;
+                          }
+                          footer .container .pay,
+                          .social {
+                              padding-top: 20px;
+                          }
+                          #sec5 .cook {
+                              width: 146px;
+                          }
+                      }
+                      
+                      @media screen and (max-width: 768px) {
+                          .photo3 {
+                              margin-top: 20px;
+                          }
+                          #sec2 {
+                              padding: 50px 0;
+                          }
+                          #sec3 .text-center {
+                              padding: 20px 60px;
+                          }
+                          footer .container .pay,
+                          .social {
+                              padding-top: 5px;
+                              padding-bottom: 35px;
+                          }
+                          #sec4 .dark2 {
+                              width: 100%;
+                              padding: 50px;
+                          }
+                          #sec5 .cook {
+                              width: 146px
+                          }
+                      }
+                      
+                      @media screen and (max-width:600px) {
+                          .navbar-nav {
+                              align-items: center;
+                          }
+                          .social_icons {
+                              justify-content: center;
+                              width: 100%;
+                          }
+                          h1 {
+                              margin-top: 0;
+                              font-size: 60px;
+                          }
+                      }
+                      
+                      @media screen and (max-width:576px) {
+                          #sec3 .text-center {
+                              padding: 20px 80px;
+                          }
+                          #sec5 .cook {
+                              width: 125px;
+                          }
+                          footer .container .pay,
+                          .social {
+                              padding-top: 0;
+                              padding-bottom: 30px;
+                          }
+                          footer .container .div4 {
+                              width: 175px;
+                          }
+                          footer .container p {
+                              font-size: 15px;
+                          }
+                          footer .container p.foot {
+                              padding: 15px 50px;
+                          }
+                      }
+                      
+                      @media screen and (max-width: 440px) {
+                          header {
+                              padding-bottom: 30px;
+                          }
+                          h1 {
+                              font-size: 40px;
+                          }
+                          .btn {
+                              margin-top: 10px;
+                          }
+                          #sec3 .text-center {
+                              padding: 20px 45px;
+                          }
+                          #sec4 .dark2 {
+                              padding: 30px 20px;
+                          }
+                      }
+                      
+                      @media screen and (max-width: 370px) {}
